@@ -11,9 +11,8 @@ let abmin = function(){
 
 let loop = function(){
     let number = 0;
-    let text = document.getElementById("txtarea")
     while (number<=12){
-        text.innerText = text + number;
+        document.getElementById("txtarea").value += number + ("\n");
         number = number + 1;
 
     }
